@@ -1,0 +1,156 @@
+body{
+  background-color: #dddddd;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+div.gallery {
+  margin: 5px;
+  width: 444px;
+  border-radius: 36px;
+}
+
+div.gallery:hover {
+  border: 0.1px solid #777;
+  box-shadow: 13px, 19px,13px, 19px;
+  border-radius: 36px;
+  box-shadow: 5px 2px 5px 2px #000000;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 36px;
+  width: 90%;
+}
+
+ div.background img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+ }
+
+ a{
+  color: black;
+  text-decoration-line: none;
+  font-family: sans-serif;
+ }
+
+ 
+ 
+ a.b1{
+  position: relative;
+  width: 8%;
+  display: inline-block;
+  padding: 12px 36px;
+  margin: 10px 0;
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  background: linear-gradient(90deg,#007acc,#b3e0ff);
+
+ }
+
+ a.b1:hover {
+  position: relative;
+  width: 8%;
+  display: inline-block;
+  padding: 12px 36px;
+  margin: 10px 0;
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 3px;
+  border-radius: 40px;
+  background: linear-gradient(90deg,#b3e0ff, #007acc);
+  box-shadow: 1px 2px 1px 2px #000000;
+
+ }
+
+
+table.recenttb{
+  background-color: #e6f2ff;
+  border-collapse: collapse;
+  border-color: black;
+  border-width: 2px;
+  position: relative;
+}
+table{
+  border-collapse: collapse;
+}
+ 
+tr.tr1{
+  background-color: #99ccff;
+}
+
+th.th1, td.td1 {
+  padding: 1em;
+}
+
+p.p1 {
+  text-align: justify;
+  letter-spacing: 2px;
+  color: white;
+  padding: 15px 18px 15px 18px;
+  font-size: 14px;
+
+
+}
+p{
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 13px;
+
+}
+
+footer{
+  background-color: #333333;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+
+}
+
+
+h2{
+  color: white;
+  padding-left: 21px;
+}
+
+nav.navbar{
+  background-color:  #e0e0eb;
+  padding-bottom: 3.5px;
+  height: 60px;
+  margin: 0;
+  background: rgba(0,0,0,.8);
+  border-top: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(255,255,255,.2); 
+  position: sticky;
+  top: 0;
+
+}
+
+nav a{
+  position: sticky;
+  top: 0;
+
+}
+
+section.recenttb1{
+  padding-top: 30px;
+}
+
