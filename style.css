@@ -1,5 +1,5 @@
 body{
-  background-color: #dddddd;
+  background-color: white;
   font-family: sans-serif;
   padding: 0;
   margin: 0;
@@ -7,7 +7,8 @@ body{
 }
 div.gallery {
   margin: 5px;
-  width: 444px;
+  max-width: 444px;
+  max-height: 640px;
   border-radius: 36px;
 }
 
@@ -34,7 +35,7 @@ div.desc {
 }
 
  div.background img{
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 20px;
  }
@@ -49,7 +50,7 @@ div.desc {
  
  a.b1{
   position: relative;
-  width: 9%;
+  width: 8%;
   display: inline-block;
   padding: 12px 36px;
   margin: 10px 0;
@@ -89,6 +90,7 @@ table.recenttb{
   border-width: 2px;
   position: relative;
 }
+
 table{
   border-collapse: collapse;
 }
@@ -99,6 +101,7 @@ tr.tr1{
 
 th.th1, td.td1 {
   padding: 1em;
+  size: 13px;
 }
 
 p.p1 {
@@ -106,7 +109,7 @@ p.p1 {
   letter-spacing: 2px;
   color: white;
   padding: 15px 18px 15px 18px;
-  font-size: 17px;
+  font-size: 12px;
 
 
 }
@@ -114,7 +117,7 @@ p{
   text-align: center;
   letter-spacing: 2px;
   color: white;
-  font-size: 17px;
+  font-size: 12px;
 
 }
 
@@ -133,7 +136,9 @@ h1{
 }
 
 nav.navbar{
-  background-color:  #e0e0eb;
+  align-self: center;
+  background-color:  white;
+  max-width: 100%;
   padding-bottom: 3.5px;
   height: 60px;
   margin: 0;
@@ -142,6 +147,7 @@ nav.navbar{
   border-bottom: 1px solid rgba(255,255,255,.2); 
   position: sticky;
   top: 0;
+
 
 }
 
@@ -153,5 +159,9 @@ nav a{
 
 section.recenttb1{
   padding-top: 30px;
+}
+
+@media (max-width: 480px){
+
 }
 
