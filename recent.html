@@ -14,7 +14,11 @@
     <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-
+    <script>
+      function scrollDown(){
+        document.getElementById('finish').scrollIntoView();
+      }
+      </script>
   </head>
 
   <title>Donation Links</title>
@@ -46,7 +50,7 @@
                     RECENT PAGE
                   </p><br><br><br><br><br><br><br>
                   <center>
-                    <a class="gotodown1" href="#finish">
+                    <a class="gotodown" onclick='scrollDown();'>
                    <div class="scrolldown">
                     
                     <span></span>
@@ -61,6 +65,7 @@
       </div>
     </header>
 </center>
+<div id="finish"></div>
 <body class="b1">
   
 <br>
